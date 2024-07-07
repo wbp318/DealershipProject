@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Motors - Your Trusted Car Dealership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sunrise Motors</h1>
+        <p>Your Trusted Car Dealership</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#lineup">Our Lineup</a></li>
+            <li><a href="#staff">Our Staff</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Sunrise Motors</h2>
+            <p>We offer a wide range of quality vehicles to suit your needs and budget.</p>
+        </section>
+        <section id="lineup">
+            <h2>Our Lineup</h2>
+            <div class="car-lineup">
+                <div class="car-card">
+                    <img src="/api/placeholder/200/150" alt="Luxury Sedan">
+                    <h3>Luxury Sedan</h3>
+                    <p>Starting at $30,000</p>
+                    <ul>
+                        <li>Leather seats</li>
+                        <li>Navigation system</li>
+                    </ul>
+                </div>
+                <div class="car-card">
+                    <img src="/api/placeholder/200/150" alt="Family SUV">
+                    <h3>Family SUV</h3>
+                    <p>Starting at $35,000</p>
+                    <ul>
+                        <li>7 seats</li>
+                        <li>Advanced safety features</li>
+                    </ul>
+                </div>
+                <div class="car-card">
+                    <img src="/api/placeholder/200/150" alt="Sports Car">
+                    <h3>Sports Car</h3>
+                    <p>Starting at $45,000</p>
+                    <ul>
+                        <li>High-performance engine</li>
+                        <li>Premium sound system</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="staff">
+            <h2>Our Staff</h2>
+            <div class="staff">
+                <div class="staff-member">
+                    <img src="/api/placeholder/150/150" alt="John Doe">
+                    <h3>John Doe</h3>
+                    <p>Sales Manager</p>
+                </div>
+                <div class="staff-member">
+                    <img src="/api/placeholder/150/150" alt="Jane Smith">
+                    <h3>Jane Smith</h3>
+                    <p>Customer Service</p>
+                </div>
+                <div class="staff-member">
+                    <img src="/api/placeholder/150/150" alt="Mike Johnson">
+                    <h3>Mike Johnson</h3>
+                    <p>Head Mechanic</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Call us at: (555) 123-4567</p>
+            <p>Email: info@sunrisemotors.com</p>
+            <p>Address: 123 Car Street, Autoville, AU 12345</p>
+        </section>
+    </div>
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <h3>Sunrise Motors Assistant</h3>
+            <button id="minimize-chatbot">_</button>
+        </div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
